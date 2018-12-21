@@ -3,7 +3,7 @@ import {Tag} from '../../ui/misc';
 import Blocks from './Blocks';
 const MatchesHome = () => {
     return (
-        < div className = "home_matches_wrapper" >
+        <div className="home_matches_wrapper" >
             <div className="container"> 
                 <Tag
                 bck="#0e1731"
