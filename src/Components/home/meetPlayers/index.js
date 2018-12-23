@@ -18,8 +18,8 @@ class MeetPlayers extends Component {
                                     size="100px"
                                     color="#ffffff"
                                     add={{
-                                        display:'inline-block',
                                         marginBottom: '20px',
+                                        display:'inline-block',
                                     }}
                                 >
                                     Meet
@@ -45,10 +45,26 @@ class MeetPlayers extends Component {
                                     color="#ffffff"
                                     add={{
                                         display:'inline-block',
-                                        marginBottom:'20px',
+                                        marginBottom: '20px',
                                     }}
                                 >
                                     Players
+                                </Tag>
+                            </div>
+                             <div>
+                                <Tag
+                                    bck="#ffffff"
+                                    size="27px"
+                                    color="#0e1731"
+                                    link={true}
+                                    linkto="/the_team"
+                                    add={{
+                                        marginBottom: '20px',
+                                        display:'inline-block',
+                                        border:'1px solid #0e1731'
+                                    }}
+                                >
+                                    Meet
                                 </Tag>
                             </div>
                         </div>
