@@ -9,10 +9,6 @@ export default class HomeCards extends Component {
                    show: this.props.show,
                    cards: [
                      {
-                       bottom: 90,
-                       left: 300
-                     },
-                     {
                        bottom: 60,
                        left: 200
                      },
